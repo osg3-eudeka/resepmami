@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity implements MainNavigator {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_list_recipe);
 
         SampleViewModel sampleViewModel = new SampleViewModel(Injection.provideSampleRepository(this));
         sampleViewModel.setMainNavigator(this);
