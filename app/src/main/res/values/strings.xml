@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Resep Mami</string>
+
+    <string name="recent_recipes">Recent Recipes</string>
+    <string name="thumbnail_image">Thumbnail Image</string>
 </resources>
